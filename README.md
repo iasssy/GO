@@ -1,6 +1,9 @@
 # IP Address Unique Counter
 
-This Go program reads a large file containing a list of IP addresses and calculates the number of unique IP addresses in the file. The program efficiently partitions the file and uses a bitmap to count unique IPs, making it suitable for processing large files.
+This Go program reads a large file containing a list of IP addresses and calculates the number of unique IP addresses in the file. The program efficiently partitions the file and uses a bitmap to count unique IPs, making it suitable for processing large files. 
+
+It was able to process a 15GB file in approximately 30 minutes.
+
 
 ## Features
 
