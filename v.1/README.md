@@ -2,7 +2,8 @@
 
 This Go program reads a large file containing a list of IP addresses and calculates the number of unique IP addresses in the file. The program efficiently partitions the file and uses a bitmap to count unique IPs, making it suitable for processing large files. 
 
-It was able to process a 106GB file in 7 hours, 50 minutes.
+It was able to process "ip_addresses" (a 106GB file) in 7 hours, 50 minutes. The result was 1000000000 unique IP addresses.
+
 
 
 ## Features
