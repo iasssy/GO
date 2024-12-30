@@ -15,3 +15,8 @@ To use the program, you need to run the Go command with the path to your IP addr
 
 ```bash
 go run main.go fileName
+```
+
+## Further improvements
+- Temporary folder removal bug.
+- Progress reporting improvements.
